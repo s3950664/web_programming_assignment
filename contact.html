@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookstore</title>
+	<link rel="stylesheet" href="css.css">
+  </head>
+  <body>
+    <header>
+		<div id="logo-div">
+			<img id="logo" src="rmit.png" alt="RMIT">
+		</div>
+		<div id="nav-bar">
+			<nav>
+				<ul>
+					<li><a href="index.html">Homepage</a></li>
+					<li><a href="category.html">Action</a></li>
+					<li><a href="index.html">Drama</a></li>
+					<li><a href="index.html">Romance</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+	
+	<main>
+		
+		<h1 style="text-align:center">Contact Us</h1>
+		<div style="margin-left: 10%; font-size: 25px">
+			<form>
+				<span>Purpose: </span>
+				<select>
+					<option>I want to sell books</option>
+					<option>I want to buy books</option>
+				</select>
+				<br></br>
+				
+			
+				<label for="name">Your name: </label>
+				<input type="text" id="name" name="name"><br><br>
+				
+				<label for="email">Your email: </label>
+				<input type="email" id="email" name="email"><br><br>
+				
+				<label for="email">Your phone: </label>
+				<input type="number" id="phone" name="phone"><br><br>
+				
+				<span>How can we contact you: </span><br>
+				<input type="checkbox" id="method1" name="method">
+				<label for="method1">By email</label><br>
+				<input type="checkbox" id="method2" name="method">
+				<label for="method2">By phone</label><br><br>
+				
+				<span>Do you want to receive our weekly newsletter: </span><br>
+				<input type="radio" id="answer1" name="answer" checked="checked">
+				<label for="answer1">Yes</label><br>
+				<input type="radio" id="answer2" name="answer">
+				<label for="answer2">No</label><br><br>
+				
+				<span>Write your contact message here: </span><br>
+				<textarea id="textarea" name="textarea" rows="10" cols="40">Contact message.</textarea><br><br>
+				
+				<button>SUBMIT</button> <button>RESET</button> 
+			</form>
+		</div>
+	</main>
+	
+    <footer>
+		<div id="nav-bar-2">
+			<nav>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Copyright</a></li>
+					<li><a href="contact.html" class="active">Contact us</a></li>
+				<ul>
+			</nav>
+		</div>
+    </footer>
+  </body>
+</html>
